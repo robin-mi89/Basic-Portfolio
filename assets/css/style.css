@@ -1,0 +1,74 @@
+h1{
+    position: relative;
+    left: 15%;
+    bottom: 0%;
+    background: teal;
+    color: white;
+    padding: 20px;
+}
+
+h2{
+    color: teal;
+    background: white;
+}
+
+.header-navigation {
+    position:absolute;
+    top:8%;
+    right:18%;
+}
+
+.header-navigation ul {
+    margin: 8px 0;
+    font-size: 0;
+    line-height: 0;
+    list-style: none;
+}
+.header-navigation ul li {
+	display:inline-block;
+	vertical-align:top;
+	margin-left:24px;
+	font-size:20px;
+	line-height:5.5;
+    color: gray;
+}
+
+.header-line {
+    background: white;
+    margin-bottom: 10px;
+    height: 106px;
+    display: block;
+    width: 100%;
+    clear: both;
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1024px;
+}
+
+#main-bio {
+  float:left;
+  width: 60%;
+}
+
+#about-info {
+  float: right;
+  width: 30%;
+}
+
+#bio-image {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.icons {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    background: white;
+}
