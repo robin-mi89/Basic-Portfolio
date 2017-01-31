@@ -1,62 +1,66 @@
 h1{
-    position: relative;
-    left: 15%;
-    bottom: 0%;
-    background: teal;
+    background: #4aaaa5;
     color: white;
     padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2{
-    color: teal;
+    color: #4aaaa5;
     background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: #ffffff;
+    border-bottom: 6px groove #cccccc;
+    
+}
+
+footer{
+    background-color: #666666;
+    clear: both;
+    position: fixed;
+    bottom: 0%;
+    max-width: 960px;
+    display: inline;
 }
 
 .header-navigation {
-    position:absolute;
-    top:8%;
-    right:18%;
+    position: absolute;
+    top:0%;
+    right:22%;
 }
 
-.header-navigation ul {
-    margin: 8px 0;
-    font-size: 0;
-    line-height: 0;
+.header-navigation ul { 
     list-style: none;
 }
 .header-navigation ul li {
 	display:inline-block;
 	vertical-align:top;
-	margin-left:24px;
+	margin-left:8px;
 	font-size:20px;
-	line-height:5.5;
+	line-height:4.5;
     color: gray;
-}
-
-.header-line {
-    background: white;
-    margin-bottom: 10px;
-    height: 106px;
-    display: block;
-    width: 100%;
-    clear: both;
-    border-bottom: 1px;
-    border-style: solid;
 }
 
 .container {
   margin: 0 auto;
-  width: 1024px;
+  width: 960px;
+  background-color: #ffffff;
+  border-color: #dddddd
 }
 
 #main-bio {
   float:left;
   width: 60%;
+  border: solid gray;
 }
 
 #about-info {
   float: right;
   width: 30%;
+  border: solid red;
 }
 
 #bio-image {
@@ -68,7 +72,7 @@ h2{
 
 .icons {
     margin-right: 10px;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     background: white;
 }
