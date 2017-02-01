@@ -49,9 +49,9 @@ header{
 footer{
     background-color: #666666;
     clear: both;
-    bottom: 0%;
-    position: absolute;
-    padding: 20px 0 20px 0;
+    position: fixed;
+    bottom:0%;
+    height: 30px;
     display: block;
     width:100%;
     border-top: 5px solid #4aaaa5;
@@ -91,7 +91,7 @@ p {
 	margin-left:8px;
 	font-size:20px;
 	line-height:4.5;
-    color: gray;
+    color: #dddddd;
 }
 
 .header-navigation li:not(:first-child):before {
