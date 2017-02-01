@@ -1,9 +1,19 @@
+html, body { height: 100%; margin: 0px; padding: 0px;}
+
+.background-area{
+    background: url("../images/weave.png") repeat;
+    min-height: 100%;
+    overflow: auto;
+    height: 100%;
+}
+
 h1{
     background: #4aaaa5;
     color: white;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
+    position: relative;
 }
 
 h2{
@@ -11,7 +21,7 @@ h2{
     background: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 10px;
 }
 
@@ -42,8 +52,9 @@ header{
 .container {
   margin: 0 auto;
   width: 960px;
-  background-color: #ffffff;
   border-color: #dddddd;
+  overflow: auto;
+  height: auto;
 }
 
 footer{
@@ -74,12 +85,20 @@ body{
 }
 
 p {
-    text-align: center;
     margin: 10px 10px 10px 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 180%;
+    color: #777777;
 }
+
+a{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .header-navigation {
     float: right;
+    margin-right: 10px;
+    position: relative;
 }
 
 .header-navigation ul { 
@@ -94,6 +113,16 @@ p {
     color: #dddddd;
 }
 
+.header-navigation a{
+    font-size:20px;
+    color:#dddddd;
+    text-decoration: none;
+}
+
+.header-navigation a:hover{
+    color: #4aaaa5;
+}
+
 .header-navigation li:not(:first-child):before {
     content: " | ";
     color: #ddd;
@@ -105,6 +134,8 @@ p {
   border: 1px solid #ddd;
   clear: both;
   margin-bottom: 30px;
+  background-color: #ffffff;
+  height: auto;
 }
 
 #about-info {
@@ -113,6 +144,7 @@ p {
   height: 120px;
   border: 1px solid #ddd;
   padding: 30px 0;
+  background-color: #ffffff;
 }
 
 #bio-image {
@@ -121,7 +153,6 @@ p {
     margin-right: 20px;
     margin-bottom: 20px;
     width: 200px;
-    height: 200px;
 }
 
 .listElements{
@@ -143,8 +174,14 @@ p {
     background: white;
 }
 
+.icons:hover{
+    outline: 3px solid #dddddd;
+    background: #4aaaa5;
+}
+
 .form-block {
     width: 100%;
+    height: auto;
 }
 
 .form-block h4{
@@ -156,6 +193,7 @@ p {
 .form-block input{
     margin: 5px 30px 20px 30px;
     width: 90%;
+    height: 20px;
     border: 1px solid #dddddd;
 }
 
@@ -173,6 +211,12 @@ p {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
+    height: auto;
+}
+
+#submit-button:hover{
+    color: black;
+    outline: 5px solid #dddddd; 
 }
 
 .areaInsideMain{
@@ -186,6 +230,11 @@ p {
     position: relative;
     float: left;
     width: 250px;
+    height: 250px;
+}
+
+.portfolio-img:hover{
+    border-top: 5px solid #4aaaa5;
 }
 
 .portfolio-img.imgleft{
